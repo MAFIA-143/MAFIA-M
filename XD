@@ -4,6 +4,6 @@ import platform,os
 os.system("git pull")
 bit = platform.architecture()[0]
 if bit == '64bit':
-    import MX
+    import MX2
 elif bit == '32bit':
-    import MX
+    import MX2
